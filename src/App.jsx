@@ -40,7 +40,6 @@ const App = () => {
             <Testimonials />
             <Senekers />
             <InternationalPromo />
-            <MarketingSuite />
             <CustomerSupport />
             <VisionToRevenue />
           </>
