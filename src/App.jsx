@@ -17,9 +17,13 @@ import Footer from './components/Footer';
 import SignUp from './components/login/SignUp';
 import Login from './components/login/Login';
 import ETemplate1 from './components/navbar/Templat/ETemplate1';
+
 import Jud from './components/eCommercetemplate/Jud';
 import Christinaglassess from './components/eCommercetemplate/Christinaglassess';
 import Create from './components/onlinestore/Create';
+import Createquestion from './components/onlinestore/Createquestion';
+import AccessoriesStore from './components/navbar/Templat/AccessoriesStore';
+import BackpackStore from './components/navbar/Templat/BackpackStore';
 
 const App = () => {
   return (
@@ -45,9 +49,12 @@ const App = () => {
         <Route path="/signup" element={<SignUp />} />
         <Route path="/login" element={<Login />} />
         <Route path="/eTemplate1" element={<ETemplate1 />} />
+        <Route path="/accessories-store" element={<AccessoriesStore />} />
+        <Route path="/backpackstore" element={<BackpackStore />} />
         <Route path="/jud" element={<Jud />} />
         <Route path="/christinaglassess" element={<Christinaglassess />} />
         <Route path="/create" element={<Create />} />
+        <Route path="/createquestion" element={<Createquestion />} />
       </Routes>
       <Footer />
     </Router>
