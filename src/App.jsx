@@ -10,7 +10,6 @@ import AIFeatures from './components/AIFeatures';
 import Testimonials from './components/Testimonials';
 import Senekers from './components/Senekers';
 import InternationalPromo from './components/InternationalPromo';
-import MarketingSuite from './components/marketingData';
 import CustomerSupport from './components/CustomerSupport';
 import VisionToRevenue from './components/VisionToRevenue';
 import Footer from './components/Footer';
